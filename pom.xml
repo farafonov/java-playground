@@ -1,0 +1,11 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.farafon.playground</groupId>
+  <artifactId>fds-playground</artifactId>
+  <version>1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>fds-util</module>
+  </modules>
+</project>
