@@ -20,5 +20,6 @@
     </build>
     <modules>
         <module>fds-util</module>
+        <module>katas</module>
     </modules>
 </project>
