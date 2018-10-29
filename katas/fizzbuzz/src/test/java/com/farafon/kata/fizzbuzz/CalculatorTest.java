@@ -32,6 +32,17 @@ public class CalculatorTest {
     }
     @Test
     public void testBraces() {
-        String con =Calculator.getResults("{1 2 3 4}");
+        String con =Calculator.getResults("{ 1 2 3 4 }");
     }
+
+    @Test
+    public void testPickANumber() {
+        Assert.assertEquals("2",  Calculator.getResults("1 { 1 2 3 4 } ?nth"));
+    }
+
+    @Test
+    public void testPickANumberATPOSITION2() {
+        Assert.assertEquals("3",  Calculator.getResults("2 { 1 2 3 4 } ?nth"));
+    }
+
 }
