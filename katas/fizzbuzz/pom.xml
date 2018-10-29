@@ -1,9 +1,11 @@
 <project>
+  <parent>
+    <groupId>com.farafon.playground</groupId>
+    <artifactId>fds-katas</artifactId>
+    <version>1-SNAPSHOT</version>
+  </parent>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.farafon.playground</groupId>
-  <artifactId>fds-fizsbuzz</artifactId>
-  <version>1-SNAPSHOT</version>
-
+  <artifactId>fds-fizzbuzz</artifactId>
   <dependencies>
     <dependency>
       <groupId>org.apache.commons</groupId>
